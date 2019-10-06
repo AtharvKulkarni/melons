@@ -153,7 +153,7 @@ class snl
 	
 	void game()
 	{
-		while(gameover()!=true)
+		while(gameover())
 		{
 			board();
 			chance();
