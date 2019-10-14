@@ -16,38 +16,58 @@ public:
 		switch(color)
 		{
 			case 1:
-				cout<<"You chose Red."<<endl;
-				break;
+				{
+					cout<<"You chose Red."<<endl;
+					secret_num = rand()%10 + 1;
+					cout<<"Your lucky number is: "<<secret_num<<endl;
+					break;
+				}
 			
 
 			case 2:
-				cout<<"You chose Green."<<endl;
-				break;
+				{
+					cout<<"You chose Green."<<endl;
+					secret_num = rand()%10 + 1;
+					cout<<"Your lucky number is: "<<secret_num<<endl;
+					break;
+				}
 			
 
 			case 3:
-				cout<<"You chose Blue."<<endl;
-				break;
+				{
+					cout<<"You chose Blue."<<endl;
+					secret_num = rand()%10 + 1;
+					cout<<"Your lucky number is: "<<secret_num<<endl;
+					break;
+				}
 			
 
 			case 4:
-				cout<<"You chose Violet."<<endl;
-				break;
+				{
+					cout<<"You chose Violet."<<endl;
+					secret_num = rand()%10 + 1;
+					cout<<"Your lucky number is: "<<secret_num<<endl;
+					break;
+				}
 			
 
 			case 5:
-				cout<<"You chose Magenta."<<endl;
-				break;
+				{
+					cout<<"You chose Magenta."<<endl;
+					secret_num = rand()%10 + 1;
+					cout<<"Your lucky number is: "<<secret_num<<endl;
+					break;
+				}
 			
 
 			default:
 			{
-				cout<<"Invalid choice."<<endl;
+				cout<<"Invalid choice. Choose something between 1-5. "<<endl;
+				ch_color();
 				break;
 			}
 		}
-		secret_num = rand()%10 + 1;
-		cout<<"Your lucky number is: "<<secret_num<<endl;
+		
 	}
 
 	void number()
