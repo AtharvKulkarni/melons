@@ -1,2 +1,2 @@
-# melons
-Mini Projects for OOP
+# Gametron
+Mini Project for Object Oriented Programming.
